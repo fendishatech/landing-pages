@@ -29,7 +29,33 @@
           class="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
           >Get Started</a
         >
+
+        <!-- Hamburger Icon -->
+        <button
+          id="menu-btn"
+          class="open block hamburger md:hidden focus:outline-none"
+        >
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+        <!-- Hamburger Icon -->
       </div>
+
+      <!-- Mobile Menu -->
+      <div class="md:hidden">
+        <div
+          id="menu"
+          class="hidden absolute flex-col items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+        >
+          <a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Products</a>
+          <a href="#" class="hover:text-darkGrayishBlue">About Us</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Careers</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Community</a>
+        </div>
+      </div>
+      <!-- Mobile Menu -->
     </nav>
     <!-- Navbar -->
 
@@ -336,7 +362,7 @@
             <div class="flex space-x-3">
               <input
                 type="text"
-                class="flex-1 px-4 rounded-full foucus:outline-none"
+                class="flex-1 px-4 rounded-full focus:outline-none"
                 placeholder="Updates in your inbox"
               />
               <button
