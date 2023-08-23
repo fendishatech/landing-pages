@@ -43,7 +43,7 @@
     <!-- Header -->
 
     <!-- Hero -->
-    <section class="relative">
+    <section class="relative overflow-hidden">
       <div
         class="container mt-14 lg:mt-28 flex flex-col-reverse lg:flex-row items-center gap-12"
       >
@@ -85,7 +85,7 @@
       </div>
       <!-- Background SVG -->
       <div
-        class="w-2/4 h-80 hidden md:block absolute overflow-hidden bg-bookmark-purple rounded-l-full top-32 right-0 lg:-bottom-28 lg:-right-36"
+        class="w-2/4 h-80 hidden md:block absolute bg-bookmark-purple rounded-l-full top-36 right-0 bottom-0"
       ></div>
     </section>
     <!-- Hero -->
@@ -308,9 +308,38 @@
     <!-- FAQ -->
 
     <!-- Contact Us -->
+    <section class="py-20 text-white bg-bookmark-purple">
+      <div class="container">
+        <div class="sm:w-3/4 lg:w-2/4 mx-auto">
+        <p class="mb-8 font-light uppercase text-center">35,000 + already Joined!</p>
+        <h1 class="text-3xl text-center">Stay Up-to-date with what we are doing.</h1>
+        <div class="mt-8 flex flex-col sm:flex-row gap-6">
+          <input placeholder="Enter your email address" class="px-2 py-3 flex-1 rounded-md focus:outline-none text-gray-700" type="text">
+          <button class="cta-btn bg-bookmark-red hover:bg-red-700 ">Contact Us</button>
+        </div>
+      </div>
+      </div>
+    </section>
     <!-- Contact Us -->
 
     <!-- Footer -->
+    <footer class="py-8 bg-bookmark-blue">
+      <div class="container flex flex-col md:flex-row items-center">
+        <div class="flex flex-1 flex-wrap items-center justify-center md:justify-start gap-12">
+          <img src="./imgs/logo-bookmark-white.png" alt="" />
+          <ul class="flex text-white uppercase gap-12 text-xs">
+            <li class="cursor-pointer">Features</li>
+            <li class="cursor-pointer">Pricing</li>
+            <li class="cursor-pointer">Contact</li>
+          </ul>
+        </div>
+        
+          <ul class="flex gap-10 mt-12 md:mt-0 list-none">
+            <li><i class="text-white text-2xl fab fa-twitter"></i></li>
+            <li><i class="text-white text-2xl fab fa-facebook-square"></i></li>
+          </ul>
+      </div>
+    </footer>
     <!-- Footer -->
   </body>
 </html>
